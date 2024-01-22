@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <script>
+
+        let reqCancel
+
+        const cancelableRequest = (requestFn) => {
+            let cancel = {}
+            const cancelablePromise = new Promise((resolve, reject) => {
+                cancel = () => reject(false)
+                Promise.race([requestFn]).then(resolve).catch(reject)
+            })
+
+            return { cancel, cancelablePromise }
+
+        }
+
+        const reqFn = () => {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve(true)
+                }, 3000);
+            })
+        }
+
+        const handleClick = async () => {
+            const { cancelablePromise, cancel } = cancelableRequest(reqFn())
+            reqCancel = cancel
+            console.log(cancelablePromise.then(res => console.log(res)).catch(e => console.log(e)));
+        }
+    </script>
+    <button onclick="handleClick()">发送</button>
+    <button onclick="reqCancel()">取消</button>
+</body>
+
+</html>
