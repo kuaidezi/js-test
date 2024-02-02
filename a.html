@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div style="height: 300px;background-color: aquamarine;">
+    <div style="height: 300px;background-color: aquamarine;display: none;">
         <span>
             <img style="width: 100%;height: 100%;"
                 src="https://zkc7n-iam-service.obs.cn-east-3.myhuaweicloud.com/1128/CHOERODON-HUAWEI/3b114736ac464657906309da9c0ffdaf/favicon.e228ce19.png"
@@ -16,5 +16,30 @@
         </span>
     </div>
 </body>
+<script>
+
+    const eventsManager = {
+        events: {},
+        emit(eventName, data) {
+            const eventList = this.events[eventName];
+            if (eventList) {
+                eventList.forEach(ele => {
+                    ele(data)
+                });
+            }
+        },
+        on(eventName, callBack) {
+            const eventList = this.events?.[eventName];
+            console.log(this.events);
+            if (eventList) {
+                eventList.push(callBack)
+            } else {
+                this.events[eventName] = [callBack]
+            }
+        }
+
+    }
+    window.eventsManager = eventsManager
+</script>
 
 </html>

@@ -1,20 +1,20 @@
 const path = require("path");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
-  mode: "production",
-  entry: "./src/myComponent/index.jsx",
+  mode: "production", // 或者 'development'， production 根据需要选择
+  entry: "./webpackTest/EventListeners.js",
   output: {
-    filename: "my-library.min.js",
     path: path.resolve(__dirname, "dist"),
-    library: "myLibrary",
-    libraryTarget: "umd",
-    umdNamedDefine: true,
+    filename: "EventListeners.min.js",
+    // libraryTarget: "umd",
+    // library: "EventListeners",
   },
   module: {
     rules: [
       {
-        test: /\.js$|\.jsx$/,
-        exclude: /(node_modules)/,
+        test: /\.js$/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {
@@ -22,6 +22,18 @@ module.exports = {
           },
         },
       },
+    ],
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        uglifyOptions: {
+          compress: true,
+          output: {
+            comments: false,
+          },
+        },
+      }),
     ],
   },
 };
