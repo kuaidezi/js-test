@@ -51,4 +51,4 @@ class EventListeners {
 
 const eventListeners = new EventListeners();
 
-export default eventListeners;
+module.exports = eventListeners;
