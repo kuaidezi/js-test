@@ -1,0 +1,41 @@
+[
+    {
+        "name": "组件2",
+        "code": "code2555",
+        "id": "48ede30a-7509-4329-9117-f5475a57cdd1",
+        "type": "TEXT_FIELD",
+        "maxLength": 5445,
+        "__dirty": true,
+        "requireFlag": true
+    },
+    {
+        "name": "组件1",
+        "code": "code1",
+        "id": "6ce0c1ea-265d-43e3-a237-82555f626ff4",
+        "maxLength": 3,
+        "help": "23",
+        "__dirty": true,
+        "type": "TEXT_FIELD"
+    },
+    {
+        "name": "组件1",
+        "code": "co复苏de1",
+        "id": "8e87d585-d10b-47b4-8193-4c02cd50c9b3",
+        "__dirty": false,
+        "maxLength": 4,
+        "help": "34",
+        "remark": "v果然是",
+        "encryptionFlag": true,
+        "type": "TEXT_AREA"
+    },
+    {
+        "name": "搞半天还能",
+        "code": "不能说以后",
+        "maxLength": 334,
+        "remark": "43",
+        "__dirty": true,
+        "type": "TEXT_FIELD",
+        "id": "11b5f681-7179-494e-bb71-0732e60bf2e2",
+        "encryptionFlag": true
+    }
+]
