@@ -63,7 +63,7 @@ function mergeLanguageNames(enNames, cnNames) {
 }
 
 function isContainsSpecialCharacters(str) {
-  const regex = /[,"':;[\]{}()=+\-\/\\]/;
+  const regex = /[,"'!！:;[\]{}()=+\-\/\\]/;
   return regex.test(str);
 }
 
