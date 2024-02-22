@@ -36,7 +36,8 @@ const convertToObject = async () => {
 
   enNames.forEach((ele) => {
     const key = toUpper(ele.replace(/ /g, "_"));
-    writeStr += `\t${key}: ${output[ele]},\n`;
+    const checkKey = isContainsSpecialCharacters(key) ? `"${key}"` : key;
+    writeStr += `\t${checkKey}: ${output[ele]},\n`;
   });
 
   const fileStr = `import intl from "utils/intl"\n;
@@ -59,6 +60,11 @@ function mergeLanguageNames(enNames, cnNames) {
     mergedFruitNames[enNames[i]] = cnNames[i];
   }
   return mergedFruitNames;
+}
+
+function isContainsSpecialCharacters(str) {
+  const regex = /[,"':;[\]{}()=+\-\/\\]/;
+  return regex.test(str);
 }
 
 convertToObject();
