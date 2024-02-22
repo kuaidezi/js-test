@@ -1,19 +1,22 @@
 const [TEMPLATE_CODE, TEXT_CODE] = ["hitf.relationMapping", "message"];
 
+const CODE_LANG = "RELATION_MAPPING_LANG";
+
 // 输入需要翻译的中文数组
-const cnNames = [
-  "用户关系映射",
-  "消费方用户映射",
-  "提供方用户映射",
-  "系统名称",
-  "系统用户",
-  "系统编码",
-  "客户端",
-  "映射名称",
-  "消费方",
-  "固定值",
-  "系统用户列表",
-  "请至少添加一个条件！",
+const cnNames = ["系统名称", "映射名称", "系统编码", "客户端", "系统用户"];
+
+const fieldList = [
+  "systemName",
+  "relationName",
+  "systemCode",
+  "clientName",
+  "systemUser",
 ];
 
-module.exports = { CN_NAMES: cnNames, TEMPLATE_CODE, TEXT_CODE };
+module.exports = {
+  CN_NAMES: cnNames,
+  FIELD_LIST: fieldList,
+  TEMPLATE_CODE,
+  TEXT_CODE,
+  CODE_LANG,
+};

@@ -3,7 +3,13 @@ const { toUpper, camelCase, keys, set } = require("lodash");
 
 const { fetchTranslateWord } = require("./http");
 
-const { CN_NAMES, TEMPLATE_CODE, TEXT_CODE } = require("./input");
+const {
+  CN_NAMES,
+  TEMPLATE_CODE,
+  TEXT_CODE,
+  FIELD_LIST,
+  CODE_LANG,
+} = require("./input");
 
 const ApplyingTemplate = (key, meaning) => {
   const code = `${TEMPLATE_CODE}.${TEXT_CODE}.${key}`;
@@ -34,10 +40,13 @@ const convertToObject = async () => {
 
   let writeStr = "";
 
+  const fieldKeys = [];
+
   enNames.forEach((ele) => {
     const key = toUpper(ele.replace(/ /g, "_"));
     const checkKey = isContainsSpecialCharacters(key) ? `"${key}"` : key;
     writeStr += `\t${checkKey}: ${output[ele]},\n`;
+    fieldKeys.push(checkKey);
   });
 
   const fileStr = `import intl from "utils/intl";\n\n
@@ -48,7 +57,23 @@ export default Langs;`;
     encoding: "utf8",
   });
 
-  console.log(writeStr);
+  // 写field
+  const createList = (arr) => {
+    return arr.map((n, i) => ({
+      name: n,
+      type: `&&&&&FieldType.string&&&&&`,
+      label: `&&&&&${CODE_LANG}.${fieldKeys[i]}()&&&&&`,
+    }));
+  };
+  const str = JSON.stringify(createList(FIELD_LIST), null, 4);
+  const writeFieldStr = "const list =" + str.replace(/"&&&&&|&&&&&"/g, "");
+
+  fs.writeFileSync("./fields.js", writeFieldStr, {
+    encoding: "utf8",
+  });
+  console.log();
+
+  // console.log(output, fieldKeys);
 };
 
 function mergeLanguageNames(enNames, cnNames) {
