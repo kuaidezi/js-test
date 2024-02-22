@@ -40,9 +40,9 @@ const convertToObject = async () => {
     writeStr += `\t${checkKey}: ${output[ele]},\n`;
   });
 
-  const fileStr = `import intl from "utils/intl"\n;
-  const Langs =  {\n ${writeStr}\n};
-  export default Langs;`;
+  const fileStr = `import intl from "utils/intl";\n\n
+const Langs =  {\n ${writeStr}\n};\n\n
+export default Langs;`;
 
   fs.writeFileSync("./output.js", fileStr, {
     encoding: "utf8",
