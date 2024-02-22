@@ -5,8 +5,12 @@ const { fetchTranslateWord } = require("./http");
 
 const { CN_NAMES, TEMPLATE_CODE, TEXT_CODE } = require("./input");
 
-const ApplyingTemplate = (key, meaning) =>
-  `() => intl.get("${TEMPLATE_CODE}.${TEXT_CODE}.${key}").d("${meaning}")`;
+const ApplyingTemplate = (key, meaning) => {
+  const code = `${TEMPLATE_CODE}.${TEXT_CODE}.${key}`;
+  return `() => intl.get("${
+    code.length > 60 ? "???Too long Warning!!!!" + code : code
+  }").d("${meaning}")`;
+};
 
 const cnNames = CN_NAMES;
 
@@ -35,7 +39,11 @@ const convertToObject = async () => {
     writeStr += `\t${key}: ${output[ele]},\n`;
   });
 
-  fs.writeFileSync("./output.js", `const lang =  {\n ${writeStr}\n}`, {
+  const fileStr = `import intl from "utils/intl"\n;
+  const Langs =  {\n ${writeStr}\n};
+  export default Langs;`;
+
+  fs.writeFileSync("./output.js", fileStr, {
     encoding: "utf8",
   });
 
