@@ -17,6 +17,13 @@ const progressBar = new cliProgress.SingleBar(
 );
 
 const downloaAudioFile = (url, fileName) => {
+  // 监听 SIGINT 信号
+  process.on("SIGINT", async () => {
+    // 在用户按下 Ctrl+C 终止下载时执行的回调函数
+    await deleteTempFiles();
+    throw new Error({ msg: "下载已中止" });
+  });
+
   const myURL = new URL(url);
   const defaultFilename =
     fileName || decodeURIComponent(path.basename(myURL.pathname));
@@ -27,6 +34,7 @@ const downloaAudioFile = (url, fileName) => {
       url,
       method: "get",
       responseType: "stream",
+      timeout: 10000,
     })
       .then(function (response) {
         // 获取文件总大小
@@ -67,6 +75,7 @@ const downloaAudioFile = (url, fileName) => {
         });
       })
       .catch(function (error) {
+        deleteTempFiles();
         reject({
           msg: "File downloaded Error",
           error,
@@ -114,6 +123,21 @@ const readFilesInDirectory = (directoryPath) => {
         })
         .catch(reject);
     });
+  });
+};
+
+const deleteTempFiles = async () => {
+  const list = await readFilesInDirectory(path.resolve(__dirname, "dist"));
+  const pattern = /\.temp$/;
+  list.forEach((ele) => {
+    if (pattern.test(ele)) {
+      fs.unlink(path.resolve(__dirname, "dist", ele), (err) => {
+        if (err) {
+          console.error("Error deleting the file:", err);
+          return;
+        }
+      });
+    }
   });
 };
 
