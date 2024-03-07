@@ -12,3 +12,5 @@ node_modules
 # production
 /dist
 dist/
+
+/文件筛选处理/output
