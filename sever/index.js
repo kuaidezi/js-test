@@ -103,6 +103,10 @@ app.put("/detail/:id", (req, res) => {
   }
 });
 
+app.all("*", (req, res) => {
+  res.send({ msg: 404, params: req.params, body: req.body });
+});
+
 // 监听端口，启动服务器
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
