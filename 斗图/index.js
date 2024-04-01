@@ -1,14 +1,16 @@
-const axios = require("axios");
-
-const cheerio = require("cheerio");
-
-const url =
-  "https://www.pkdoutu.com/search?keyword=%E7%94%84%E5%AD%90%E4%B8%B9";
-
-axios.get(url).then((res) => {
-  const $ = cheerio.load(res.data);
-
-  $("a").each((i, t) => {
-    console.log($(t).text());
-  });
-});
+const line = 110;
+let str = "";
+for (let i = 1; i <= line; i++) {
+  if (!(i % 2)) {
+    continue;
+  }
+  str +=
+    Array(Math.floor((line - i) / 2))
+      .fill(" ")
+      .join("") +
+    Array(i).fill("*").join("") +
+    "\n";
+}
+console.time("start");
+console.log(str);
+console.timeEnd("start");
