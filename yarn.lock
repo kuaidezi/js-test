@@ -1009,6 +1009,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@kuaidezi/timeline@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@kuaidezi/timeline/-/timeline-3.0.0.tgz#953b339d1ee4fec1666255c89cb314da68930968"
+  integrity sha512-eq21FU+3wjrIGkCs0kaqHEIl9ptIXRFz5dBuqO5QqUJq3hGNjnms7LtV4pdYwn0y7Ydv0qdl/ifVnNlI4+jYfQ==
+
 "@npmcli/agent@^2.0.0":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@npmcli/agent/-/agent-2.2.1.tgz#8aa677d0a4136d57524336a35d5679aedf2d56f7"
