@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
+    <title>列表</title>
+</head>
+
+
+<body onload="load()">
+    <div class="container">
+        <div class="left-list"> </div>
+        <div class="content"> </div>
+    </div>
+    <div class="progress" />
+</body>
+<script>
+
+    let activeId = '';
+
+    // 获取元素
+    const contentElement = document.getElementsByClassName('content')[0];
+    const progressElement = document.getElementsByClassName('progress')[0];
+    const leftListElement = document.getElementsByClassName('left-list')[0];
+    const tagElement = document.getElementsByClassName('content')[0];
+
+
+    const loadList = () => {
+        const list = Array(100).fill(1).map(i => ({ id: uuid.v4() }));
+        const tagElement = document.getElementsByClassName('left-list')[0];
+        list.forEach((item, index) => {
+            const ele = document.createElement("div");
+            ele.classList.add("list-item");
+            ele.innerText = item.id;
+            ele.setAttribute("data-id", item.id);
+            if (index === 0 && !activeId) {
+                ele.classList.add("active");
+            }
+            tagElement.appendChild(ele);
+        });
+
+        return list;
+    };
+
+    const loadContent = (data) => {
+        const list = Array(20).fill(1);
+        list.forEach(item => {
+            const ele = document.createElement("div");
+            ele.classList.add("content-item");
+            if (data) {
+                ele.innerText = data.id.split("-")[0];
+            }
+            tagElement.appendChild(ele);
+        });
+    };
+    const load = () => {
+        const list = loadList();
+        loadContent(list[0]);
+    };
+
+
+
+    contentElement.addEventListener('scroll', function (e) {
+        // 获取元素可滚动宽度
+        const scrollHeight = e.target.scrollHeight;
+        // 获取元素当前水平滚动的距离
+        const scrollTop = e.target.scrollTop;
+        // 计算滚动百分比
+        const scrollPercentage = Math.round((scrollTop / (scrollHeight - contentElement.clientHeight)) * 1000) / 10;
+        progressElement.style.width = `${scrollPercentage}%`;
+    });
+
+    leftListElement.addEventListener("click", function (e) {
+        const dataId = e.target.getAttribute("data-id");
+        if (!dataId || dataId === activeId) {
+            return;
+        }
+        [...leftListElement.children].forEach(ele => {
+            if (ele.getAttribute("data-id") === dataId) {
+                ele.classList.add("active");
+            } else if (ele.classList.contains('active')) {
+                ele.classList.remove('active');
+            }
+        });
+        contentElement.innerHTML = null;
+        loadContent({ id: dataId });
+        activeId = dataId;
+        contentElement.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+
+
+</script>
+
+</html>
