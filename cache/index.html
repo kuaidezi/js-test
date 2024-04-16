@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cache</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"
+        integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <button type="button" onclick="handleClickBtn()">点击</button>
+
+</body>
+<script>
+
+    const handleClickBtn = () => {
+        const randomParam = Math.random(); // 生成随机参数
+        const url = `http://localhost:3000/?random=${randomParam}`;
+        axios.get(url).then(res => {
+            console.log(res.data);
+        })
+    }
+</script>
+
+</html>
