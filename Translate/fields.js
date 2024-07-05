@@ -1,27 +1,12 @@
 const list =[
     {
-        "name": "systemName",
+        "name": "example",
         "type": FieldType.string,
-        "label": RELATION_MAPPING_LANG.SYSTEM_NAME()
+        "label": CARD_LANG.FUNCTION()
     },
     {
-        "name": "relationName",
+        "name": "exampleReturn",
         "type": FieldType.string,
-        "label": RELATION_MAPPING_LANG.MAPPING_NAME()
-    },
-    {
-        "name": "systemCode",
-        "type": FieldType.string,
-        "label": RELATION_MAPPING_LANG.SYSTEM_CODE()
-    },
-    {
-        "name": "clientName",
-        "type": FieldType.string,
-        "label": RELATION_MAPPING_LANG.CLIENT()
-    },
-    {
-        "name": "systemUser",
-        "type": FieldType.string,
-        "label": RELATION_MAPPING_LANG.SYSTEM_USER()
+        "label": CARD_LANG.FUNCTION_DESCRIPTION()
     }
 ]

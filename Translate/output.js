@@ -2,11 +2,10 @@ import intl from "utils/intl";
 
 
 const Langs =  {
- 	SYSTEM_NAME: () => intl.get("hitf.relationMapping.message.systemName").d("系统名称"),
-	MAPPING_NAME: () => intl.get("hitf.relationMapping.message.mappingName").d("映射名称"),
-	SYSTEM_CODE: () => intl.get("hitf.relationMapping.message.systemCode").d("系统编码"),
-	CLIENT: () => intl.get("hitf.relationMapping.message.client").d("客户端"),
-	SYSTEM_USER: () => intl.get("hitf.relationMapping.message.systemUser").d("系统用户"),
+ 	FUNCTION: () => intl.get("horc.common.message.function").d("函数"),
+	FUNCTION_DESCRIPTION: () => intl.get("horc.common.message.functionDescription").d("函数描述"),
+	EXAMPLE: () => intl.get("horc.common.message.example").d("示例"),
+	EXAMPLE_DESCRIPTION: () => intl.get("horc.common.message.exampleDescription").d("示例描述"),
 
 };
 

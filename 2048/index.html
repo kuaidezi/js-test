@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    span {
+        display: inline-block;
+        margin: 4px;
+        border: 1px solid grey;
+        padding: 4px;
+        width: 28px;
+        text-align: center;
+    }
+
+    #btn {
+        position: relative;
+        height: 80px;
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .up {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+
+    .down {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+</style>
+
+<body>
+    <div id="container"></div>
+    <div id="btn"></div>
+</body>
+
+<script>
+    const gridData = [
+        [2, 0, 2, 4],
+        [2, 4, 2, 0],
+        [2, 0, 0, 2],
+        [2, 2, 2, 2]
+    ];
+
+    const directionEnum = ['up', 'right', 'down', 'left'];
+
+
+    const running = (key) => {
+        let flag = false;
+        if (key === directionEnum[0]) {
+            for (let i = 3; i >= 0; i--) {
+                for (let j = 3; j > 0; j--) {
+                    if (gridData[j][i] === gridData[j - 1][i]) {
+                        gridData[j][i] *= 2;
+                        gridData[j - 1][i] = 0;
+                        flag = true
+                    } else if (gridData[j - 1][i] === 0 && gridData[j][i] > 0) {
+                        gridData[j - 1][i] = gridData[j][i];
+                        gridData[j][i] = 0;
+                        flag = true
+                    }
+                }
+                for (let j = 3; j > 0; j--) {
+
+                    if (gridData[j - 1][i] === 0) {
+                        gridData[j - 1][i] = gridData[j][i];
+                        gridData[j][i] = 0;
+                    }
+                }
+                for (let j = 3; j > 0; j--) {
+
+                    if (gridData[j - 1][i] === 0) {
+                        gridData[j - 1][i] = gridData[j][i];
+                        gridData[j][i] = 0;
+                    }
+                }
+            }
+        } else if (key === directionEnum[2]) {
+            for (let i = 3; i >= 0; i--) {
+                for (let j = 0; j < 3; j++) {
+                    if (gridData[j][i] === gridData[j + 1][i]) {
+                        gridData[j + 1][i] *= 2;
+                        gridData[j][i] = 0;
+                        flag = true
+                    } else if (gridData[j + 1][i] === 0 && gridData[j][i] > 0) {
+                        gridData[j + 1][i] = gridData[j][i];
+                        gridData[j][i] = 0;
+                        flag = true
+                    }
+                }
+                for (let j = 0; j < 3; j++) {
+                    if (gridData[j + 1][i] === 0 && gridData[j][i] > 0) {
+                        gridData[j + 1][i] = gridData[j][i];
+                        gridData[j][i] = 0;
+                    }
+                }
+                for (let j = 0; j < 3; j++) {
+                    if (gridData[j + 1][i] === 0 && gridData[j][i] > 0) {
+                        gridData[j + 1][i] = gridData[j][i];
+                        gridData[j][i] = 0;
+                    }
+                }
+            }
+        } else if (key === directionEnum[1]) {
+            for (let j = 3; j >= 0; j--) {
+                for (let i = 0; i < 3; i++) {
+                    if (gridData[j][i] === gridData[j][i + 1]) {
+                        gridData[j][i] *= 2;
+                        gridData[j][i + 1] = 0;
+                        flag = true
+                    } else if (gridData[j][i + 1] === 0 && gridData[j][i] > 0) {
+                        gridData[j][i + 1] = gridData[j][i];
+                        gridData[j][i] = 0;
+                        flag = true
+                    }
+                }
+                gridData[j] = [...gridData[j].filter(i => i <= 0), ...gridData[j].filter(i => i > 0)]
+
+            }
+
+        } else if (key === directionEnum[3]) {
+            for (let j = 3; j >= 0; j--) {
+                for (let i = 3; i >= 0; i--) {
+                    if (gridData[j][i] === gridData[j][i - 1]) {
+                        gridData[j][i] *= 2;
+                        gridData[j][i - 1] = 0;
+                        flag = true
+                    } else if (gridData[j][i - 1] === 0 && gridData[j][i] > 0) {
+                        gridData[j][i - 1] = gridData[j][i];
+                        gridData[j][i] = 0;
+                        flag = true
+                    }
+                }
+                gridData[j] = [...gridData[j].filter(i => i > 0), ...gridData[j].filter(i => i <= 0)];
+
+            }
+
+        }
+
+        if (flag) {
+            createNumber();
+        } else {
+            throw new Error('换个方向试试')
+        }
+
+    }
+
+    const createNumber = () => {
+        const zeroPostion = [];
+        gridData.forEach((ele, i) => {
+            ele.forEach((k, _i) => {
+                if (k === 0) {
+                    zeroPostion.push([i, _i]);
+                }
+            });
+        });
+        const num = ~~(Math.random() * zeroPostion.length);
+        const value = Math.random() > 0.25 ? 2 : 4;
+        const [x, y] = zeroPostion[num];
+        gridData[x][y] = value;
+
+    }
+
+
+
+
+    const container = document.getElementById('container');
+
+
+    const render = () => {
+        container.innerHTML = '';
+        for (let i = 0; i < 4; i++) {
+            const row = document.createElement('div');
+            for (let j = 0; j < 4; j++) {
+                const ele = document.createElement('span');
+                ele.innerText = gridData[i][j];
+                row.appendChild(ele)
+            }
+            container.appendChild(row);
+        }
+
+    }
+    const btn = document.getElementById('btn');
+    render();
+
+    directionEnum.map(i => {
+        const item = document.createElement('button');
+        item.innerText = i;
+        item.classList.add(i)
+        item.addEventListener('click', () => {
+            running(i);
+            render();
+        })
+        btn.appendChild(item)
+    });
+
+
+</script>
+
+</html>
