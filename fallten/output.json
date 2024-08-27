@@ -1,0 +1,1675 @@
+[
+    {
+        "serviceCode": "alm-origin",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "cfb61df7-4bb5-4a92-ba64-0ff40b585065"
+    },
+    {
+        "id": "=2KeTjE_RycEK5EyezPFaOXZ9F8MJadoeb5bb9BizNtA==",
+        "serviceCode": "alm-origin",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "f2955c3e-b725-4b3b-bca7-54bc2a157864",
+        "parentKeyId": "cfb61df7-4bb5-4a92-ba64-0ff40b585065"
+    },
+    {
+        "serviceCode": "hand-hr",
+        "serviceName": "hand-hr",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=xqFPDtyI7XdX6P3RByl-PgcLeHKNjPqsVJyCGSu7AT8==",
+        "keyId": "242685fb-ec64-486b-874f-01756b325e33"
+    },
+    {
+        "id": "=KIXYeUXhmlxNQ9pINC9AKCvd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hand-hr",
+        "databaseName": "APAAS",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "d5e63cd9-5309-4c59-9d25-2d4bd170dcf9",
+        "parentKeyId": "242685fb-ec64-486b-874f-01756b325e33"
+    },
+    {
+        "serviceCode": "hzero-data-29775",
+        "serviceName": "hzero-data-29775",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=XQAFKsD7D46WlGKlU4Xk5w===",
+        "keyId": "ff15f93b-9936-4d8f-9f98-02d457893871"
+    },
+    {
+        "id": "=YPoOILJl4ViqMTPT3c5khrJ22C1EXC_ZIYV7cYTzCQM==",
+        "serviceCode": "hzero-data-29775",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "fe634e4b-79d5-40e0-b76f-b1432296012a",
+        "parentKeyId": "ff15f93b-9936-4d8f-9f98-02d457893871"
+    },
+    {
+        "serviceCode": "hzero-import",
+        "serviceName": "hzero-import",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=F7chsdi1UjXs1KGuRzp-AA===",
+        "keyId": "5cf5e49e-318d-49cc-99c3-a8e2ecaa753d"
+    },
+    {
+        "id": "=vz09nfKd4kPk7hrqJR5dNT8-c5m_zvW1m4YmHQ4c_5U==",
+        "serviceCode": "hzero-import",
+        "databaseName": "HZERO_IMPORT",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "b5883112-b3f4-4f63-ba14-f467b88a5c3b",
+        "parentKeyId": "5cf5e49e-318d-49cc-99c3-a8e2ecaa753d"
+    },
+    {
+        "serviceCode": "hzero-import-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "7de765f5-aa33-4eb6-bf20-8a7e4bbce6d2"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59Svd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-import-x",
+        "databaseName": "hzero_import",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "af19158d-d8df-46f2-8406-75ecc185fde0",
+        "parentKeyId": "7de765f5-aa33-4eb6-bf20-8a7e4bbce6d2"
+    },
+    {
+        "serviceCode": "hzero-import-y",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "93b048a9-74a0-4715-a2dc-abcc97c64f7c"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59fJFidwAOqUjIPz2yvE91_w==",
+        "serviceCode": "hzero-import-y",
+        "databaseName": "hzero",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "66c16e0e-8d10-4b44-8633-ee95cbe59a95",
+        "parentKeyId": "93b048a9-74a0-4715-a2dc-abcc97c64f7c"
+    },
+    {
+        "serviceCode": "hzero-lowcode-20721",
+        "serviceName": "hzero-lowcode-20721",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=OeqedG92Vz2PSx5BDYU4zIyNjEAd1PMGyxx6LCZUAec==",
+        "keyId": "894c9a8e-0d4c-4970-955a-ae95e0c1600b"
+    },
+    {
+        "id": "=6QHd2Ao_-1lvfUQbxl2RTGE2hrrz-My5sB7l9KD84TU==",
+        "serviceCode": "hzero-lowcode-20721",
+        "databaseName": "HZERO_WORKFLOW",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "818ef991-f517-430d-8c78-6c1fd4778b82",
+        "parentKeyId": "894c9a8e-0d4c-4970-955a-ae95e0c1600b"
+    },
+    {
+        "serviceCode": "hzero-lowcode-28415",
+        "serviceName": "hzero-lowcode-28415",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=2Ddbpr_h611WJragiNqEBXZ9F8MJadoeb5bb9BizNtA==",
+        "keyId": "c0c02bea-3f6e-4db0-889c-d4194c90c973"
+    },
+    {
+        "id": "=gkqWLMU7mBIFJQd8L_XqWo3N7l5F6Xp33VphDhM3Oek==",
+        "serviceCode": "hzero-lowcode-28415",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "cc849ebd-36f0-41ee-b0a3-d07e2bc5c217",
+        "parentKeyId": "c0c02bea-3f6e-4db0-889c-d4194c90c973"
+    },
+    {
+        "serviceCode": "hzero-lowcode-31697",
+        "serviceName": "hzero-lowcode-31697",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=F6scXcn6kotGtHs2hnuLnLnYOsjeelmizHRZSKwbyAY==",
+        "keyId": "ef2425d9-c035-450a-9c91-beb50ac4bf14"
+    },
+    {
+        "id": "=oFZ7gsxVyGOtjXCvTERGbbPcIEU-mTH0DraO4gfJ3YE==",
+        "serviceCode": "hzero-lowcode-31697",
+        "databaseName": "HZERO_LOWCODE",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "216ad260-f377-45ac-a8bb-cd138a98faf9",
+        "parentKeyId": "ef2425d9-c035-450a-9c91-beb50ac4bf14"
+    },
+    {
+        "serviceCode": "hzero-lowcode-dameng",
+        "serviceName": "hzero-lowcode-dameng",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=2Ddbpr_h611WJragiNqEBfto7xJFabK44C0aUC8HRqU==",
+        "keyId": "67f72abe-4154-4f58-90f7-e620d8102448"
+    },
+    {
+        "id": "=GPo0tIjRioxhstXTnCiACk-pW9h1TA4PND23eC0e7Lg==",
+        "serviceCode": "hzero-lowcode-dameng",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "DM DBMS",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "cff08a45-f31e-4c42-a1db-77ee7d08bf01",
+        "parentKeyId": "67f72abe-4154-4f58-90f7-e620d8102448"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data",
+        "serviceName": "hzero-lowcode-data",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=Bwt4co2M-qxUnIIZK7sBPw===",
+        "keyId": "af01d6dc-b708-467b-9ce4-6e333826431b"
+    },
+    {
+        "id": "=Qt5U-nr15sHTZXgJOHGuDNL2VXvyCqTJQ5et7fkn2KM==",
+        "serviceCode": "hzero-lowcode-data",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "7c83f3ce-901b-48b9-b8df-287264f3e48e",
+        "parentKeyId": "af01d6dc-b708-467b-9ce4-6e333826431b"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-10902",
+        "serviceName": "hzero-lowcode-data-10902",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=pHvGlM-ORoMwVgJI66FX8Q===",
+        "keyId": "483a1aed-e189-491e-ac0c-cecb85280102"
+    },
+    {
+        "id": "=Ct0OJt86sBK1OAbYCH87PJsmifxBH5gzxmJ0rrHPdJY==",
+        "serviceCode": "hzero-lowcode-data-10902",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "76826ca5-84da-40c9-9e71-13228e50fc51",
+        "parentKeyId": "483a1aed-e189-491e-ac0c-cecb85280102"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-12706",
+        "serviceName": "hzero-lowcode-data-12706",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=poH5SA3KYosHQX6zEk1Ue4yNjEAd1PMGyxx6LCZUAec==",
+        "keyId": "1fcfc474-322f-4a67-9f0d-8bdd01aace8f"
+    },
+    {
+        "id": "=oU7C_iA5nYz71p34pTxIRGE2hrrz-My5sB7l9KD84TU==",
+        "serviceCode": "hzero-lowcode-data-12706",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "a93d46f1-6df8-476d-864e-ebb6d6eaf853",
+        "parentKeyId": "1fcfc474-322f-4a67-9f0d-8bdd01aace8f"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-15352",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "2a73fea3-5e98-4793-aa92-1720afdd7fb0"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59UUjmKw6rbnJ7xV41DlFtdc==",
+        "serviceCode": "hzero-lowcode-data-15352",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "c060b53f-70e3-4a6e-b5c9-4ffa0f309128",
+        "parentKeyId": "2a73fea3-5e98-4793-aa92-1720afdd7fb0"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-20721",
+        "serviceName": "hzero-lowcode-data-20721",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=aszxw3b6KSDGy1E1EUO38U-pW9h1TA4PND23eC0e7Lg==",
+        "keyId": "4c74e8b9-e050-4858-9cc3-f5932131fbee"
+    },
+    {
+        "id": "=D7lcSsvYpxq_FgwBu8t-RX2X-jJoa1R8JvTSvnQBkKM==",
+        "serviceCode": "hzero-lowcode-data-20721",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "2e802758-6e45-437c-bac4-60b4c1fc2852",
+        "parentKeyId": "4c74e8b9-e050-4858-9cc3-f5932131fbee"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-24548",
+        "serviceName": "hzero-lowcode-data-24548",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=6gNunqcTn5MVov4j34rrZ9DlkATyhNMtWNXGWdh2Rho==",
+        "keyId": "33ef4f84-d85a-4790-88c5-aca8e121fd6c"
+    },
+    {
+        "id": "=Qt6eN4Dhz8_82wXPw9CX24yNjEAd1PMGyxx6LCZUAec==",
+        "serviceCode": "hzero-lowcode-data-24548",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "b712d73e-9da0-4955-a8a2-b5f7a75a2009",
+        "parentKeyId": "33ef4f84-d85a-4790-88c5-aca8e121fd6c"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-25422",
+        "serviceName": "hzero-lowcode-data-25422",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=URVDBof14D5PBhD9edXakM3ZPhLRt4f9J3T2735EDCU==",
+        "keyId": "bcef539c-99b1-4e0f-adcd-ece326a47437"
+    },
+    {
+        "id": "=20iI8TLWKl2L-nvqKbNahX2X-jJoa1R8JvTSvnQBkKM==",
+        "serviceCode": "hzero-lowcode-data-25422",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "6891d1f9-1cdd-4128-8ea8-e83d4d3f5461",
+        "parentKeyId": "bcef539c-99b1-4e0f-adcd-ece326a47437"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-28415",
+        "serviceName": "hzero-lowcode-data-28415",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=SqESXVH0xOQkY27MxCghh7nYOsjeelmizHRZSKwbyAY==",
+        "keyId": "b5d1fcd2-8bfa-4f4c-9190-63e2e6a64f38"
+    },
+    {
+        "id": "=AkZJHmkI49kRer-6-Ydi-XRBc9GnIx0YUkdDz9Y2DdA==",
+        "serviceCode": "hzero-lowcode-data-28415",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "58f0e0e8-a113-48ff-879e-58e6e4df6f45",
+        "parentKeyId": "b5d1fcd2-8bfa-4f4c-9190-63e2e6a64f38"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-29775",
+        "serviceName": "hzero-lowcode-data-29775",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=uIFejOR4BXFwNiYrS6zZADrqOZVr1-zcVewJT0Ms90w==",
+        "keyId": "2061f16e-f1ba-47ad-9cf6-3ca53dcc1fbd"
+    },
+    {
+        "id": "=D3hbTlb1AXnughc-PSvRb0-pW9h1TA4PND23eC0e7Lg==",
+        "serviceCode": "hzero-lowcode-data-29775",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "5c3b2ad8-dd7a-483c-9f99-b71e34623049",
+        "parentKeyId": "2061f16e-f1ba-47ad-9cf6-3ca53dcc1fbd"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-29775-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "3ae36092-a3bd-43b3-9dce-aa754566eb70"
+    },
+    {
+        "id": "=DZqkhSKdUUf8HpFcj8SfHT8-c5m_zvW1m4YmHQ4c_5U==",
+        "serviceCode": "hzero-lowcode-data-29775-x",
+        "databaseName": "HZERO_LOWCODE",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "80101c18-36b9-4634-adc9-4df7ed3916fe",
+        "parentKeyId": "3ae36092-a3bd-43b3-9dce-aa754566eb70"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-30029",
+        "serviceName": "hzero-lowcode-data-30029",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=5xXxKFiKtx0KYXKSZ-Cj0LnYOsjeelmizHRZSKwbyAY==",
+        "keyId": "da05ce97-ceb8-4d35-8da2-d84de8a9acf6"
+    },
+    {
+        "id": "=VQdVykrb5BUTT0NbIQbhfGsViXNua0SyhKSzq8TiTec==",
+        "serviceCode": "hzero-lowcode-data-30029",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "23580539-2fde-4603-b48c-26fb474cafd4",
+        "parentKeyId": "da05ce97-ceb8-4d35-8da2-d84de8a9acf6"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-31606",
+        "serviceName": "hzero-lowcode-data-31606",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=TlCPb5_gW1mdi-UBv4T-qdDlkATyhNMtWNXGWdh2Rho==",
+        "keyId": "1f266504-b1d7-416d-931b-4e7a4cba503c"
+    },
+    {
+        "id": "=lvrUj6_lytIUccdYuXRlMY3N7l5F6Xp33VphDhM3Oek==",
+        "serviceCode": "hzero-lowcode-data-31606",
+        "databaseName": "HZERO_LOWCODE",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "121928d6-d372-4997-bb5b-37116213b47f",
+        "parentKeyId": "1f266504-b1d7-416d-931b-4e7a4cba503c"
+    },
+    {
+        "id": "=3SRVMbr_-wudtbaif0bqIOaf1Rb4AdK5YAdeD22JkNo==",
+        "serviceCode": "hzero-lowcode-data-31606",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "2b3616a7-baef-49f1-af6a-2f012e0e615f",
+        "parentKeyId": "1f266504-b1d7-416d-931b-4e7a4cba503c"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-31650",
+        "serviceName": "hzero-lowcode-data-31650",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=Su3f4TI97lImX8iQ3_k6MHIBriREcKBcRNaykOMQscU==",
+        "keyId": "38a622aa-1486-4859-89c0-aa34832f0f46"
+    },
+    {
+        "id": "=5y8ZnmwELxg5bK7DFeF_q3IBriREcKBcRNaykOMQscU==",
+        "serviceCode": "hzero-lowcode-data-31650",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "bdbe1c08-c0bc-4192-819c-55e94248d38c",
+        "parentKeyId": "38a622aa-1486-4859-89c0-aa34832f0f46"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-31697",
+        "serviceName": "hzero-lowcode-data-31697",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=8tH5pzrbdK_YpGQMPi-akuaf1Rb4AdK5YAdeD22JkNo==",
+        "keyId": "8ceeb4cb-daab-44dc-b18d-fcfc27ab8031"
+    },
+    {
+        "id": "=LDLkaDCNOKMSF575llFA7HZ9F8MJadoeb5bb9BizNtA==",
+        "serviceCode": "hzero-lowcode-data-31697",
+        "databaseName": "HZERO_LOWCODE",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "ef3f3026-e9b8-4b5e-9b32-1e5e9b4df464",
+        "parentKeyId": "8ceeb4cb-daab-44dc-b18d-fcfc27ab8031"
+    },
+    {
+        "id": "=P5fZeXA3XO_qSIQiD_OQWJzcPO9FBnk6O3ZcwUzu87s==",
+        "serviceCode": "hzero-lowcode-data-31697",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "f79aef8e-b934-402e-91a9-a74130a491e5",
+        "parentKeyId": "8ceeb4cb-daab-44dc-b18d-fcfc27ab8031"
+    },
+    {
+        "id": "=VNNmSRUxJ_QGVML6SX72jHRBc9GnIx0YUkdDz9Y2DdA==",
+        "serviceCode": "hzero-lowcode-data-31697",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "5cd10dda-1d56-45c5-b736-59933b930f93",
+        "parentKeyId": "8ceeb4cb-daab-44dc-b18d-fcfc27ab8031"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-33280",
+        "serviceName": "hzero-lowcode-data-33280",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=cXgnABcOwQzqy7dXYB7JQbnYOsjeelmizHRZSKwbyAY==",
+        "keyId": "9ceaf771-9674-441e-865e-7d65d87e3938"
+    },
+    {
+        "id": "=phG2Nbqyr_oyGV_-f9V7wOaf1Rb4AdK5YAdeD22JkNo==",
+        "serviceCode": "hzero-lowcode-data-33280",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "DM DBMS",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "72e3ddd3-1f21-44e6-8a43-849d6f3bc563",
+        "parentKeyId": "9ceaf771-9674-441e-865e-7d65d87e3938"
+    },
+    {
+        "id": "=IEzoPnOZFk6ZhnWqv4ZWVJsmifxBH5gzxmJ0rrHPdJY==",
+        "serviceCode": "hzero-lowcode-data-33280",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "9ce36a8e-fe41-49c1-92d6-18b598a8085c",
+        "parentKeyId": "9ceaf771-9674-441e-865e-7d65d87e3938"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-36374",
+        "serviceName": "hzero-lowcode-data-36374",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=I0BIL2gAUZ-zuJaYi7g3XLJ22C1EXC_ZIYV7cYTzCQM==",
+        "keyId": "5aea9063-bc5c-432a-b4c4-a342048cef33"
+    },
+    {
+        "id": "=kwhWfKPQWfOhomXeWOYRH-af1Rb4AdK5YAdeD22JkNo==",
+        "serviceCode": "hzero-lowcode-data-36374",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "b15ca601-6f1b-43eb-9817-06f02a27f9a6",
+        "parentKeyId": "5aea9063-bc5c-432a-b4c4-a342048cef33"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-36639",
+        "serviceName": "hzero-lowcode-data-36639",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=-5R2ukPiF9j7CUZxEasyvX2X-jJoa1R8JvTSvnQBkKM==",
+        "keyId": "5d3d45a5-0643-493e-9708-d9d533577d87"
+    },
+    {
+        "id": "=AtJoPQqBmwChRHn_y6ZoL2E2hrrz-My5sB7l9KD84TU==",
+        "serviceCode": "hzero-lowcode-data-36639",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "cdd14ec8-cf64-415a-a5c4-b2927a8aa850",
+        "parentKeyId": "5d3d45a5-0643-493e-9708-d9d533577d87"
+    },
+    {
+        "id": "=Qt5U-nr15sHTZXgJOHGuDPLIhKkJpzoepKGMWBi7aSU==",
+        "serviceCode": "hzero-lowcode-data-36639",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "083755ad-0a15-4459-a77d-dcd53114a192",
+        "parentKeyId": "5d3d45a5-0643-493e-9708-d9d533577d87"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-36639-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "6b35cdf2-4449-4879-8bc3-dd17f6f3e01c"
+    },
+    {
+        "id": "=CuVP2I9qmaXC5gojM2tVCj8-c5m_zvW1m4YmHQ4c_5U==",
+        "serviceCode": "hzero-lowcode-data-36639-x",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "ca8e465f-b6dd-45bc-8e75-c768b4aaa409",
+        "parentKeyId": "6b35cdf2-4449-4879-8bc3-dd17f6f3e01c"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-36639-y",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "81909dab-e125-4c35-8289-79aae7ceba0c"
+    },
+    {
+        "id": "=sZT7hbkJ18_rwTc7zWdZABm6BsJQDoyNLkbSOOqS7yw==",
+        "serviceCode": "hzero-lowcode-data-36639-y",
+        "databaseName": "hzero_lowcade_data",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "05b8b958-d0c9-4f3f-99d6-6bc80df1f89e",
+        "parentKeyId": "81909dab-e125-4c35-8289-79aae7ceba0c"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-4806",
+        "serviceName": "hzero-lowcode-data-4806",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=JLfO3Ytxc1CnQx4E8eXjbJzcPO9FBnk6O3ZcwUzu87s==",
+        "keyId": "1f87199b-4cd6-4cc2-bec1-13b688be8378"
+    },
+    {
+        "id": "=WTUbNGrTKJo4G4jZqR61fLPcIEU-mTH0DraO4gfJ3YE==",
+        "serviceCode": "hzero-lowcode-data-4806",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "11b29561-0ad1-41b5-a458-4c1dd479e48f",
+        "parentKeyId": "1f87199b-4cd6-4cc2-bec1-13b688be8378"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-4846",
+        "serviceName": "hzero-lowcode-data-4846",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=gWlXVvQFmbl7y7DVPp2JD5zcPO9FBnk6O3ZcwUzu87s==",
+        "keyId": "7ca5705d-5ead-42c0-9a40-fb0e4b8b4218"
+    },
+    {
+        "id": "=U2H7QhxxGAZm0Cp4LV6KjIyNjEAd1PMGyxx6LCZUAec==",
+        "serviceCode": "hzero-lowcode-data-4846",
+        "databaseName": "apaas_demo",
+        "dataSourceType": "MySQL",
+        "primaryFlag": false,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "746d2464-d671-4665-b4b5-b5b24536ac57",
+        "parentKeyId": "7ca5705d-5ead-42c0-9a40-fb0e4b8b4218"
+    },
+    {
+        "id": "=ZHxuoQFHpEn3eyO1zbePd83ZPhLRt4f9J3T2735EDCU==",
+        "serviceCode": "hzero-lowcode-data-4846",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "ff020d0d-1e56-4851-8bfb-8e9759f2d995",
+        "parentKeyId": "7ca5705d-5ead-42c0-9a40-fb0e4b8b4218"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-7971",
+        "serviceName": "hzero-lowcode-data-7971",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=9tKatdoWNjlFCC9K4kgp6g===",
+        "keyId": "5418c70c-6817-47e5-a7e5-18deb10efee7"
+    },
+    {
+        "id": "=GufnZ-y2T0nkqUNmObgpg5zcPO9FBnk6O3ZcwUzu87s==",
+        "serviceCode": "hzero-lowcode-data-7971",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "f0546a3e-13a0-424a-9aad-b6a922606593",
+        "parentKeyId": "5418c70c-6817-47e5-a7e5-18deb10efee7"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "97db0bad-8e5c-4de9-bb56-8aeb404d8862"
+    },
+    {
+        "id": "=xP2oXOSi-oAMzfdMNKB8-JzcPO9FBnk6O3ZcwUzu87s==",
+        "serviceCode": "hzero-lowcode-data-x",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "f804434d-6867-4c50-903c-48d7ad55e918",
+        "parentKeyId": "97db0bad-8e5c-4de9-bb56-8aeb404d8862"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-xxx",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "1b137bd0-4c73-449b-8f41-1d7cb12a9092"
+    },
+    {
+        "id": "=g-afWi0smuVD3llfq5ymKtDlkATyhNMtWNXGWdh2Rho==",
+        "serviceCode": "hzero-lowcode-data-xxx",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "920e6ed5-f482-4b2c-8fe8-b5bb97676513",
+        "parentKeyId": "1b137bd0-4c73-449b-8f41-1d7cb12a9092"
+    },
+    {
+        "serviceCode": "hzero-lowcode-data-z",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "5d21edd3-188d-44c0-bca0-f996ce027c0a"
+    },
+    {
+        "id": "=UKaUBCuA9GLzfApvYbHe6s3ZPhLRt4f9J3T2735EDCU==",
+        "serviceCode": "hzero-lowcode-data-z",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "4e594a42-94a0-450a-a92d-243b0570318f",
+        "parentKeyId": "5d21edd3-188d-44c0-bca0-f996ce027c0a"
+    },
+    {
+        "id": "=UKaUBCuA9GLzfApvYbHe6s3ZPhLRt4f9J3T2735EDCU==",
+        "serviceCode": "hzero-lowcode-data-z",
+        "databaseName": "hzero_lowcode_data",
+        "schemaName": "hzero_lowcode_data",
+        "primaryFlag": true,
+        "keyId": "3ff7de35-10b1-4397-bf82-ed64d10840bd",
+        "parentKeyId": "4e594a42-94a0-450a-a92d-243b0570318f"
+    },
+    {
+        "serviceCode": "hzero-lowcode-demo",
+        "serviceName": "hzero-lowcode-demo",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=d-rUNqOB6-Swhe4hRsAC7w===",
+        "keyId": "025b45c3-8662-432a-8ac5-f1befa304d50"
+    },
+    {
+        "id": "=uvuUInvb3V1EH9QFovSC432X-jJoa1R8JvTSvnQBkKM==",
+        "serviceCode": "hzero-lowcode-demo",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "6aaa7105-138d-4ebb-8537-7d413149b822",
+        "parentKeyId": "025b45c3-8662-432a-8ac5-f1befa304d50"
+    },
+    {
+        "serviceCode": "hzero-lowcode-demo-12706",
+        "serviceName": "hzero-lowcode-demo-12706",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=EhyX04aL7XmLQmv75duSY-af1Rb4AdK5YAdeD22JkNo==",
+        "keyId": "ba182f73-9029-482b-9d2b-51ae7de9ffa9"
+    },
+    {
+        "id": "=gfYnlRlk4I9B0F5n1ZVtewcLeHKNjPqsVJyCGSu7AT8==",
+        "serviceCode": "hzero-lowcode-demo-12706",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "809841de-3d49-4a0f-8510-8e631a6019f4",
+        "parentKeyId": "ba182f73-9029-482b-9d2b-51ae7de9ffa9"
+    },
+    {
+        "serviceCode": "hzero-lowcode-demo-33280",
+        "serviceName": "hzero-lowcode-demo-33280",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=mYT4hi1OYKCWi7kYGKIFhZsv4jrwE6Y5qdMwSOCfKMM==",
+        "keyId": "30a03e48-8804-42cf-8574-a3ae6fff7a7a"
+    },
+    {
+        "id": "=czDCs_7uQRF3eFxBmLGpXCvd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-lowcode-demo-33280",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "92565b19-2272-45c5-b2a7-3d7840b4c557",
+        "parentKeyId": "30a03e48-8804-42cf-8574-a3ae6fff7a7a"
+    },
+    {
+        "serviceCode": "hzero-lowcode-demo-4806",
+        "serviceName": "hzero-lowcode-demo-4806",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=6KAVT9K4EVR2Rf8uRRRRC-af1Rb4AdK5YAdeD22JkNo==",
+        "keyId": "5a54a635-d0d2-4ada-8c45-6b6909436bf4"
+    },
+    {
+        "id": "=vVkLOzkBixWflyHktP55JLJ22C1EXC_ZIYV7cYTzCQM==",
+        "serviceCode": "hzero-lowcode-demo-4806",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "864dddcf-04de-429b-89d5-7de3d848309c",
+        "parentKeyId": "5a54a635-d0d2-4ada-8c45-6b6909436bf4"
+    },
+    {
+        "serviceCode": "hzero-lowcode-demo-y",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "18eba61f-3100-4417-b0ca-e5f3934ccc87"
+    },
+    {
+        "id": "=VMb8_oxaGp8Qa2z5zmNZ6lfImCrvtU98IlsBylQ-78M==",
+        "serviceCode": "hzero-lowcode-demo-y",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "6fb281ef-788f-41cf-8361-cd30f03e48bb",
+        "parentKeyId": "18eba61f-3100-4417-b0ca-e5f3934ccc87"
+    },
+    {
+        "serviceCode": "hzero-lowcode-kingbase",
+        "serviceName": "hzero-lowcode-kingbase",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=IqIVASiYYehx4x-xYyscHJsmifxBH5gzxmJ0rrHPdJY==",
+        "keyId": "2400ec21-ab0c-43da-b04f-84ad32b756ea"
+    },
+    {
+        "id": "=c6Sk4ZAz2ocCpzL8qG8dpSvd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-lowcode-kingbase",
+        "databaseName": "gongying",
+        "dataSourceType": "KingbaseES",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "137dcedd-1f72-4a74-847e-aec5ef14efc5",
+        "parentKeyId": "2400ec21-ab0c-43da-b04f-84ad32b756ea"
+    },
+    {
+        "id": "=c6Sk4ZAz2ocCpzL8qG8dpSvd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-lowcode-kingbase",
+        "databaseName": "gongying",
+        "schemaName": "cmiot",
+        "primaryFlag": true,
+        "keyId": "cc2ce15f-7096-4e9e-963c-f59bdbd1e808",
+        "parentKeyId": "137dcedd-1f72-4a74-847e-aec5ef14efc5"
+    },
+    {
+        "id": "=jPwqb7JBBIy4GWZEuViq-j8-c5m_zvW1m4YmHQ4c_5U==",
+        "serviceCode": "hzero-lowcode-kingbase",
+        "databaseName": "gongying",
+        "schemaName": "test",
+        "primaryFlag": false,
+        "keyId": "18b0eb20-86fa-4ddc-9225-4900f8209922",
+        "parentKeyId": "137dcedd-1f72-4a74-847e-aec5ef14efc5"
+    },
+    {
+        "serviceCode": "hzero-lowcode-mysql-12706",
+        "serviceName": "hzero-lowcode-mysql-12706",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=YdtBZzC6ZjCJunXRJQPwBnRBc9GnIx0YUkdDz9Y2DdA==",
+        "keyId": "d96b3751-17b1-43d8-b250-77d38e683602"
+    },
+    {
+        "id": "=CTqPDd59CARZ_kfY9OycCpsv4jrwE6Y5qdMwSOCfKMM==",
+        "serviceCode": "hzero-lowcode-mysql-12706",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "704d7e5f-203f-441b-9d5a-fc2afafeab84",
+        "parentKeyId": "d96b3751-17b1-43d8-b250-77d38e683602"
+    },
+    {
+        "serviceCode": "hzero-lowcode-oceanbase",
+        "serviceName": "hzero-lowcode-oceanbase",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=6HEswIOyuXISOJa4llLrto3N7l5F6Xp33VphDhM3Oek==",
+        "keyId": "ab13bdec-3e8f-4b6f-a8e6-0cc241a78c04"
+    },
+    {
+        "id": "=02NYheFg3B8VYpT8czXNOpzcPO9FBnk6O3ZcwUzu87s==",
+        "serviceCode": "hzero-lowcode-oceanbase",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "73b14c14-4258-4790-9e62-076e109e4efa",
+        "parentKeyId": "ab13bdec-3e8f-4b6f-a8e6-0cc241a78c04"
+    },
+    {
+        "serviceCode": "hzero-lowcode-oceanbase-mysql",
+        "serviceName": "hzero-lowcode-oceanbase-mysql",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=ZqiD58tjrP_sx6MeSE10VbnYOsjeelmizHRZSKwbyAY==",
+        "keyId": "158d74b3-f2d5-43fd-994e-7a2fca8a29d5"
+    },
+    {
+        "id": "=3d1MXn21z_Ne4TtDR0dAM5sv4jrwE6Y5qdMwSOCfKMM==",
+        "serviceCode": "hzero-lowcode-oceanbase-mysql",
+        "databaseName": "hzero_lowcode_data",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "ca2ee1a6-9dad-4a0e-ae8a-984c54f3e143",
+        "parentKeyId": "158d74b3-f2d5-43fd-994e-7a2fca8a29d5"
+    },
+    {
+        "serviceCode": "hzero-lowcode-oracle",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "1a59d9ac-841b-4231-8587-daae4cd70556"
+    },
+    {
+        "id": "=BUqNBIBpZtT5HHeYEXpNfHRBc9GnIx0YUkdDz9Y2DdA==",
+        "serviceCode": "hzero-lowcode-oracle",
+        "databaseName": "HZERO",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "536dbfdf-154a-4d17-80b9-7413746d499f",
+        "parentKeyId": "1a59d9ac-841b-4231-8587-daae4cd70556"
+    },
+    {
+        "serviceCode": "hzero-lowcode-oracle-12706",
+        "serviceName": "hzero-lowcode-oracle-12706",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=gi90iLEbhPZ0YLIlKaeUx3RBc9GnIx0YUkdDz9Y2DdA==",
+        "keyId": "408675e3-c95a-4989-97f6-155aec5cd562"
+    },
+    {
+        "id": "=726w4-vslXLPXI3mvHk0SVxBu6pv_rlarb3ROhSebsI==",
+        "serviceCode": "hzero-lowcode-oracle-12706",
+        "databaseName": "HZERO_LOWCODE_DATA",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "6dc80048-4d4b-4d27-8c51-0db0b59349b9",
+        "parentKeyId": "408675e3-c95a-4989-97f6-155aec5cd562"
+    },
+    {
+        "serviceCode": "hzero-lowcode-oracle-12706-y",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "e39e91e0-54d7-4e43-b677-f724ba215883"
+    },
+    {
+        "id": "=v8xfiyBZmos_4iaxfI0yOnZ9F8MJadoeb5bb9BizNtA==",
+        "serviceCode": "hzero-lowcode-oracle-12706-y",
+        "databaseName": "HZERO_MODELER_X",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "8106efa8-08f1-4348-b36f-85ce9828d0c8",
+        "parentKeyId": "e39e91e0-54d7-4e43-b677-f724ba215883"
+    },
+    {
+        "serviceCode": "hzero-lowcode-oracle-synonyms",
+        "serviceName": "hzero-lowcode-oracle-synonyms",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=2o7g-hAUOfM__KY-SNf9KGsViXNua0SyhKSzq8TiTec==",
+        "keyId": "c77673f6-05fb-46c3-932d-040597c02154"
+    },
+    {
+        "id": "=ALVr5pqv9NOXhliClZhuET8-c5m_zvW1m4YmHQ4c_5U==",
+        "serviceCode": "hzero-lowcode-oracle-synonyms",
+        "databaseName": "HZERO_LOWCODE_SYNONYMS",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "adbc8db0-8f59-4588-ab95-3618fb63d92f",
+        "parentKeyId": "c77673f6-05fb-46c3-932d-040597c02154"
+    },
+    {
+        "serviceCode": "hzero-lowcode-postgres",
+        "serviceName": "hzero-lowcode-postgres",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=WNLEidN-9LQecLxRUSWBsE-pW9h1TA4PND23eC0e7Lg==",
+        "keyId": "ff9bd04f-f362-4f49-a57e-48cb612a6cf4"
+    },
+    {
+        "id": "=ciZ29oxh95P6wv97Tni6RbnYOsjeelmizHRZSKwbyAY==",
+        "serviceCode": "hzero-lowcode-postgres",
+        "databaseName": "hzero_lowcode_data_test",
+        "dataSourceType": "PostgreSQL",
+        "primaryFlag": false,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "8c693b8f-9d81-4f44-90a9-f541f4caa56b",
+        "parentKeyId": "ff9bd04f-f362-4f49-a57e-48cb612a6cf4"
+    },
+    {
+        "id": "=ciZ29oxh95P6wv97Tni6RbnYOsjeelmizHRZSKwbyAY==",
+        "serviceCode": "hzero-lowcode-postgres",
+        "databaseName": "hzero_lowcode_data_test",
+        "schemaName": "103",
+        "primaryFlag": false,
+        "keyId": "50f1763d-8aea-434d-ad79-7d92cf3f5662",
+        "parentKeyId": "8c693b8f-9d81-4f44-90a9-f541f4caa56b"
+    },
+    {
+        "id": "=n7MSyCi0sGd91xyRkF3yqWsViXNua0SyhKSzq8TiTec==",
+        "serviceCode": "hzero-lowcode-postgres",
+        "databaseName": "hzero_lowcode_data_test",
+        "schemaName": "m103",
+        "primaryFlag": false,
+        "keyId": "8bbdc9f3-a9de-4354-b231-2b4c3d258d84",
+        "parentKeyId": "8c693b8f-9d81-4f44-90a9-f541f4caa56b"
+    },
+    {
+        "id": "=55JBfY487KPcPv86_dbjE1sGFkMwnvkTTWT7S1bGZQw==",
+        "serviceCode": "hzero-lowcode-postgres",
+        "databaseName": "hzero_lowcode_data_test",
+        "schemaName": "public",
+        "primaryFlag": true,
+        "keyId": "41ddca86-c557-43bb-9037-a7bb75852cf0",
+        "parentKeyId": "8c693b8f-9d81-4f44-90a9-f541f4caa56b"
+    },
+    {
+        "id": "=uZ6YltzAEsX8GuC3olkVtGE2hrrz-My5sB7l9KD84TU==",
+        "serviceCode": "hzero-lowcode-postgres",
+        "databaseName": "hzero_lowcode_data_test",
+        "schemaName": "tpap_103",
+        "primaryFlag": false,
+        "keyId": "54b83892-9332-4848-b165-4cce4d6d1aa6",
+        "parentKeyId": "8c693b8f-9d81-4f44-90a9-f541f4caa56b"
+    },
+    {
+        "serviceCode": "hzero-lowcode-postgres-12706",
+        "serviceName": "hzero-lowcode-postgres-12706",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=ubK_GfEeNGwHIfNVPy3PLjrqOZVr1-zcVewJT0Ms90w==",
+        "keyId": "adbfb3cc-4718-4843-920a-eed961221d95"
+    },
+    {
+        "id": "=4yjoPVtF5-XVrsYLMyVmSOaf1Rb4AdK5YAdeD22JkNo==",
+        "serviceCode": "hzero-lowcode-postgres-12706",
+        "databaseName": "hzero_lowcode_data_test",
+        "dataSourceType": "PostgreSQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "8f2b445c-2068-4204-a210-e84dcabe074c",
+        "parentKeyId": "adbfb3cc-4718-4843-920a-eed961221d95"
+    },
+    {
+        "id": "=4yjoPVtF5-XVrsYLMyVmSOaf1Rb4AdK5YAdeD22JkNo==",
+        "serviceCode": "hzero-lowcode-postgres-12706",
+        "databaseName": "hzero_lowcode_data_test",
+        "schemaName": "public",
+        "primaryFlag": true,
+        "keyId": "945cfa6c-f77d-4408-83c4-5978ca819501",
+        "parentKeyId": "8f2b445c-2068-4204-a210-e84dcabe074c"
+    },
+    {
+        "id": "=dEcubsgMbfAF7EwKwN1tq0-pW9h1TA4PND23eC0e7Lg==",
+        "serviceCode": "hzero-lowcode-postgres-12706",
+        "databaseName": "hzero_lowcode_data_test",
+        "schemaName": "tpap_103",
+        "primaryFlag": false,
+        "keyId": "b27dfab8-0124-4779-bf8d-cfa141b7418b",
+        "parentKeyId": "8f2b445c-2068-4204-a210-e84dcabe074c"
+    },
+    {
+        "serviceCode": "hzero-lowcode-postgresql",
+        "serviceName": "hzero-lowcode-postgresql",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=RPupEN8HOWS0GnYyv_Imw0-pW9h1TA4PND23eC0e7Lg==",
+        "keyId": "90d27e9c-067b-41f2-9da2-2c99fe196a65"
+    },
+    {
+        "id": "=rGrAb6lmzrmXzdsy6PckbbPcIEU-mTH0DraO4gfJ3YE==",
+        "serviceCode": "hzero-lowcode-postgresql",
+        "databaseName": "test",
+        "dataSourceType": "PostgreSQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "2e01a744-90df-44f9-b387-7f511f32830a",
+        "parentKeyId": "90d27e9c-067b-41f2-9da2-2c99fe196a65"
+    },
+    {
+        "id": "=rGrAb6lmzrmXzdsy6PckbbPcIEU-mTH0DraO4gfJ3YE==",
+        "serviceCode": "hzero-lowcode-postgresql",
+        "databaseName": "test",
+        "schemaName": "public",
+        "primaryFlag": true,
+        "keyId": "fb7af8f1-0584-4849-85c1-89fa721c5431",
+        "parentKeyId": "2e01a744-90df-44f9-b387-7f511f32830a"
+    },
+    {
+        "serviceCode": "hzero-lowcode-postgresql-1",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "a817c12c-6640-482f-90fc-62be827658ad"
+    },
+    {
+        "id": "=n5pXS6_-JaUkBKsig9A_dWsViXNua0SyhKSzq8TiTec==",
+        "serviceCode": "hzero-lowcode-postgresql-1",
+        "databaseName": "postgres",
+        "dataSourceType": "PostgreSQL",
+        "primaryFlag": false,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "6488fd1b-b61b-4926-aa22-7d3a5016f559",
+        "parentKeyId": "a817c12c-6640-482f-90fc-62be827658ad"
+    },
+    {
+        "id": "=n5pXS6_-JaUkBKsig9A_dWsViXNua0SyhKSzq8TiTec==",
+        "serviceCode": "hzero-lowcode-postgresql-1",
+        "databaseName": "postgres",
+        "schemaName": "hzero_modeler",
+        "primaryFlag": false,
+        "keyId": "e981bc97-24d0-4d92-8e6e-e834fa169d12",
+        "parentKeyId": "6488fd1b-b61b-4926-aa22-7d3a5016f559"
+    },
+    {
+        "serviceCode": "hzero-lowcode-postgresql-2",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "5d0e425b-07d8-4d39-9999-f62ad1d2e6bc"
+    },
+    {
+        "id": "=vcoNu2N9Q8IF4mtAEA50oyvd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-lowcode-postgresql-2",
+        "databaseName": "postgres",
+        "dataSourceType": "PostgreSQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "cb2eb638-f621-4cdd-b5b6-66ea4e536f53",
+        "parentKeyId": "5d0e425b-07d8-4d39-9999-f62ad1d2e6bc"
+    },
+    {
+        "id": "=vcoNu2N9Q8IF4mtAEA50oyvd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-lowcode-postgresql-2",
+        "databaseName": "postgres",
+        "schemaName": "public",
+        "primaryFlag": true,
+        "keyId": "9c3d18a9-9aca-429b-ac9b-a3d7c0845d04",
+        "parentKeyId": "cb2eb638-f621-4cdd-b5b6-66ea4e536f53"
+    },
+    {
+        "serviceCode": "hzero-lowcode-test",
+        "serviceName": "hzero-lowcode-test",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=KNy6bsEM7xW67iRyXOR5cA===",
+        "keyId": "96f28700-5701-44e8-9ae9-e966c2040a5f"
+    },
+    {
+        "id": "=tURISXrUow_bUQBzZoFaq1xBu6pv_rlarb3ROhSebsI==",
+        "serviceCode": "hzero-lowcode-test",
+        "databaseName": "TEST_B",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "f52cb03f-51a6-4ba4-8231-b31a557ce56d",
+        "parentKeyId": "96f28700-5701-44e8-9ae9-e966c2040a5f"
+    },
+    {
+        "serviceCode": "hzero-modeler",
+        "serviceName": "hzero-modeler",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=J_3lpb-BjQTB2u-2eDLZGw===",
+        "keyId": "c57abeea-abe0-4af6-858e-d80342106d66"
+    },
+    {
+        "id": "=iyZxSD0xIw7STG-Ljpose83ZPhLRt4f9J3T2735EDCU==",
+        "serviceCode": "hzero-modeler",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "9669092b-a5c8-40de-a3e8-020d3ab324c5",
+        "parentKeyId": "c57abeea-abe0-4af6-858e-d80342106d66"
+    },
+    {
+        "id": "=6hb40Yz9hg-4m-5DonWHw_to7xJFabK44C0aUC8HRqU==",
+        "serviceCode": "hzero-modeler",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "DM DBMS",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "f646919f-88cc-4209-8f90-81861e40947f",
+        "parentKeyId": "c57abeea-abe0-4af6-858e-d80342106d66"
+    },
+    {
+        "serviceCode": "hzero-modeler-12612",
+        "serviceName": "hzero-modeler-12612",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=w12Zjh5myMq9mmyPUHjBDw===",
+        "keyId": "f4df4a06-46c4-4612-a092-bc4031ecda60"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59Um256npVN-ntcIb8bXN3_o==",
+        "serviceCode": "hzero-modeler-12612",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "09e6cc5c-ae7b-4225-a8d9-007551d80485",
+        "parentKeyId": "f4df4a06-46c4-4612-a092-bc4031ecda60"
+    },
+    {
+        "serviceCode": "hzero-modeler-12686",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "0e1183a3-96ee-41a0-97fa-18338f3a1cf0"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59dN7TZ-30eCVkffzZ8tuFk4==",
+        "serviceCode": "hzero-modeler-12686",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "12e38fd9-f047-4f43-b54c-739f704e9662",
+        "parentKeyId": "0e1183a3-96ee-41a0-97fa-18338f3a1cf0"
+    },
+    {
+        "serviceCode": "hzero-modeler-126867",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "aaa5da12-e28e-44a6-829e-61052424ad10"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59RFWIkujpYG5YeQ-cNfnQvw==",
+        "serviceCode": "hzero-modeler-126867",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "22f5555e-a567-4c30-9a6e-f35fbf8c646a",
+        "parentKeyId": "aaa5da12-e28e-44a6-829e-61052424ad10"
+    },
+    {
+        "serviceCode": "hzero-modeler-12706",
+        "serviceName": "hzero-modeler-12706",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=ZMhO8Emtdv0np6bInWYG7QcLeHKNjPqsVJyCGSu7AT8==",
+        "keyId": "d9bf78d7-b5c2-4be0-b76d-b070457faf9f"
+    },
+    {
+        "id": "=8siEqQmnOh6koYxYGLtpJQ===",
+        "serviceCode": "hzero-modeler-12706",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "791f8a15-04ae-412c-9aba-c4239a74bd82",
+        "parentKeyId": "d9bf78d7-b5c2-4be0-b76d-b070457faf9f"
+    },
+    {
+        "serviceCode": "hzero-modeler-12706-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "c0a5e047-0555-43d5-8ef0-f955c68f0585"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59eaf1Rb4AdK5YAdeD22JkNo==",
+        "serviceCode": "hzero-modeler-12706-x",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "e6c852a9-6b5e-4ba6-8217-1929d4e56e3b",
+        "parentKeyId": "c0a5e047-0555-43d5-8ef0-f955c68f0585"
+    },
+    {
+        "serviceCode": "hzero-modeler-15352",
+        "serviceName": "hzero-modeler-15352",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=2PlOpHViae1u_EhOXmnOOc3ZPhLRt4f9J3T2735EDCU==",
+        "keyId": "6d3dd038-8fdb-43f8-a0b1-d7547649a228"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59XZ9F8MJadoeb5bb9BizNtA==",
+        "serviceCode": "hzero-modeler-15352",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "7564daaf-76ad-4a71-89e7-775d254bfb6e",
+        "parentKeyId": "6d3dd038-8fdb-43f8-a0b1-d7547649a228"
+    },
+    {
+        "serviceCode": "hzero-modeler-15352-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "43a1f914-13eb-4a20-82fc-61f1bf33544d"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59dqOzU-n0N9O0worFNIlpPk==",
+        "serviceCode": "hzero-modeler-15352-x",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "acb41bd5-9961-40d1-bb2a-d8ece187b2d9",
+        "parentKeyId": "43a1f914-13eb-4a20-82fc-61f1bf33544d"
+    },
+    {
+        "serviceCode": "hzero-modeler-20721",
+        "serviceName": "hzero-modeler-20721",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=bKo95L00Wy9IZU9mzNzU0T8-c5m_zvW1m4YmHQ4c_5U==",
+        "keyId": "86e46a09-6839-4e4f-bd17-f725dacd353b"
+    },
+    {
+        "id": "=Oinmmyo0Hq8QSiLvD9itW0-pW9h1TA4PND23eC0e7Lg==",
+        "serviceCode": "hzero-modeler-20721",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "0a568e2a-625b-4c76-95f2-2cfbde440446",
+        "parentKeyId": "86e46a09-6839-4e4f-bd17-f725dacd353b"
+    },
+    {
+        "serviceCode": "hzero-modeler-29775",
+        "serviceName": "hzero-modeler-29775",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=uCafbHOyWTVVMpJ2wCl0hDrqOZVr1-zcVewJT0Ms90w==",
+        "keyId": "974da4b9-3739-429e-82da-9dc09562138c"
+    },
+    {
+        "id": "=IT6aIs_bjH33rZR7T4eTJZsv4jrwE6Y5qdMwSOCfKMM==",
+        "serviceCode": "hzero-modeler-29775",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "fbf6908a-6415-4f5a-85c4-32b477a8b46b",
+        "parentKeyId": "974da4b9-3739-429e-82da-9dc09562138c"
+    },
+    {
+        "serviceCode": "hzero-modeler-30029",
+        "serviceName": "hzero-modeler-30029",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=EFWqLmyE7vjLi0kZAS1JQJsmifxBH5gzxmJ0rrHPdJY==",
+        "keyId": "87e0d972-c3f1-4fda-8643-26fa0875a990"
+    },
+    {
+        "id": "=TXzgJ7vjqNVlyUm7AjUaIz8-c5m_zvW1m4YmHQ4c_5U==",
+        "serviceCode": "hzero-modeler-30029",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "d74d6a36-f886-414c-a595-3c128b0ee943",
+        "parentKeyId": "87e0d972-c3f1-4fda-8643-26fa0875a990"
+    },
+    {
+        "serviceCode": "hzero-modeler-31697",
+        "serviceName": "hzero-modeler-31697",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=CdQe4R8xBnUGDBai11fmAgcLeHKNjPqsVJyCGSu7AT8==",
+        "keyId": "f16dc4f0-a2e8-4e00-8e96-3ce7411e0ce4"
+    },
+    {
+        "id": "=GANPlXJf-b863a3Fv3kpQ4yNjEAd1PMGyxx6LCZUAec==",
+        "serviceCode": "hzero-modeler-31697",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "1769024f-5a69-4cf7-b764-72dddb8abb2c",
+        "parentKeyId": "f16dc4f0-a2e8-4e00-8e96-3ce7411e0ce4"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59XW03krgadSnTeb1pxatQlg==",
+        "serviceCode": "hzero-modeler-31697",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "b7af9845-c58e-4a94-a5c7-00d7e9cabd45",
+        "parentKeyId": "f16dc4f0-a2e8-4e00-8e96-3ce7411e0ce4"
+    },
+    {
+        "serviceCode": "hzero-modeler-32988",
+        "serviceName": "hzero-modeler-32988",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=q40_4L_HwBVuw99UkTa_0tDlkATyhNMtWNXGWdh2Rho==",
+        "keyId": "8a151096-2f93-4469-902d-884ca43f5599"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59d564aMKSP4eDzSI-P9d2k0==",
+        "serviceCode": "hzero-modeler-32988",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "67d5de1d-c6a2-4cf9-8bcf-cb2fb9ebacc2",
+        "parentKeyId": "8a151096-2f93-4469-902d-884ca43f5599"
+    },
+    {
+        "serviceCode": "hzero-modeler-33280",
+        "serviceName": "hzero-modeler-33280",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=S6F_qhip2uEXzQWcFKDbM2E2hrrz-My5sB7l9KD84TU==",
+        "keyId": "9300f1c5-13ee-46d3-90c4-a3902807311d"
+    },
+    {
+        "id": "=nZrGqdVVSZv0V24Uh6JZJrnYOsjeelmizHRZSKwbyAY==",
+        "serviceCode": "hzero-modeler-33280",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "8cb24157-8787-4f9f-82ad-42b025eb81c7",
+        "parentKeyId": "9300f1c5-13ee-46d3-90c4-a3902807311d"
+    },
+    {
+        "serviceCode": "hzero-modeler-36639",
+        "serviceName": "hzero-modeler-36639",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=7p-eUu5hBqBag5PB0GCbPVsGFkMwnvkTTWT7S1bGZQw==",
+        "keyId": "b0ed1c12-06df-4f9c-9b15-cb844e3eeb49"
+    },
+    {
+        "id": "=kEz1lg9J3AzlslMiZpdv4XRBc9GnIx0YUkdDz9Y2DdA==",
+        "serviceCode": "hzero-modeler-36639",
+        "databaseName": "HZERO_MODELER",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "7ec34f44-fed6-4b1e-a4f9-def229e00622",
+        "parentKeyId": "b0ed1c12-06df-4f9c-9b15-cb844e3eeb49"
+    },
+    {
+        "serviceCode": "hzero-modeler-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "cff0e932-15e5-41e6-bb62-116ea87e1bf7"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59ZzcPO9FBnk6O3ZcwUzu87s==",
+        "serviceCode": "hzero-modeler-x",
+        "databaseName": "hzero_modeler",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "3279f1a1-6ced-4493-98cb-17a66aa66345",
+        "parentKeyId": "cff0e932-15e5-41e6-bb62-116ea87e1bf7"
+    },
+    {
+        "serviceCode": "hzero-orchestration",
+        "serviceName": "hzero-orchestration",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=8kWJ3AA6pSMg_PbK8T3X_A===",
+        "keyId": "7dceacf4-3c06-498e-8eb4-f8ef5d3da936"
+    },
+    {
+        "id": "=bfvd5_oqhiPB1JHFiknYAjrqOZVr1-zcVewJT0Ms90w==",
+        "serviceCode": "hzero-orchestration",
+        "databaseName": "HZERO_ORCHESTRATION",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "d6a664ca-e5d1-4fc4-8180-fa9ef36b61f6",
+        "parentKeyId": "7dceacf4-3c06-498e-8eb4-f8ef5d3da936"
+    },
+    {
+        "serviceCode": "hzero-platform",
+        "serviceName": "hzero-platform",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=EsCruANwhB6KDvZD0IYVzQ===",
+        "keyId": "2725160b-1994-4a0a-ad1c-c7f15c640d9b"
+    },
+    {
+        "id": "=HaR6NtN3Rlb6spNLO5-hDXIBriREcKBcRNaykOMQscU==",
+        "serviceCode": "hzero-platform",
+        "databaseName": "HZERO_PLATFORM",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "25fde89e-c749-4077-a168-db4246b7e08d",
+        "parentKeyId": "2725160b-1994-4a0a-ad1c-c7f15c640d9b"
+    },
+    {
+        "id": "=6hb40Yz9hg-4m-5DonWHw2-djDhx6iT3kULlsNaYOsk==",
+        "serviceCode": "hzero-platform",
+        "databaseName": "hzero_platform",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "cabd7c74-92b6-499e-92ec-253313b2694e",
+        "parentKeyId": "2725160b-1994-4a0a-ad1c-c7f15c640d9b"
+    },
+    {
+        "serviceCode": "hzero-platform-33280",
+        "serviceName": "hzero-platform-33280",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=B9wJC4Xq_TAf02SkV0UoPj8-c5m_zvW1m4YmHQ4c_5U==",
+        "keyId": "ea230d10-d38c-4034-85ee-605d321d09ba"
+    },
+    {
+        "id": "=Hxg6EKktn3Gyl0V1UVUEQgcLeHKNjPqsVJyCGSu7AT8==",
+        "serviceCode": "hzero-platform-33280",
+        "databaseName": "HZERO_PLATFORM",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "724a30f4-5f56-42e0-b2b8-a8c07dd51b3d",
+        "parentKeyId": "ea230d10-d38c-4034-85ee-605d321d09ba"
+    },
+    {
+        "serviceCode": "hzero-platform-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "e4b3bf76-dca8-4326-b600-5a94bb79d901"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59QTWIyPXPP4dqJU03BaMZtw==",
+        "serviceCode": "hzero-platform-x",
+        "databaseName": "hzero_platform",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "21b56509-41fa-49c5-b877-2af8e08e81cd",
+        "parentKeyId": "e4b3bf76-dca8-4326-b600-5a94bb79d901"
+    },
+    {
+        "serviceCode": "hzero-platform-y",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "5ea76327-66d6-401f-a59e-bc0bf5008e2a"
+    },
+    {
+        "id": "=7fkhlZC3b_MggPrTXwVY9G-djDhx6iT3kULlsNaYOsk==",
+        "serviceCode": "hzero-platform-y",
+        "databaseName": "hzero_platform",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "124a3d59-0791-4578-993d-e5acf10dd091",
+        "parentKeyId": "5ea76327-66d6-401f-a59e-bc0bf5008e2a"
+    },
+    {
+        "serviceCode": "hzero-todo-service-30713",
+        "serviceName": "hzero-todo-service-30713",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=jBfkhbiwhO4OMwRjcBIOT4yNjEAd1PMGyxx6LCZUAec==",
+        "keyId": "f6de6980-c13c-4e08-937f-1d17cecd1ead"
+    },
+    {
+        "id": "=GNxhhzwAxTz3AsQa4AhkQc3ZPhLRt4f9J3T2735EDCU==",
+        "serviceCode": "hzero-todo-service-30713",
+        "databaseName": "todo_service",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "68ca02f1-42d2-4e6a-b1bb-885a028a6dfb",
+        "parentKeyId": "f6de6980-c13c-4e08-937f-1d17cecd1ead"
+    },
+    {
+        "serviceCode": "hzero-workflow",
+        "serviceName": "hzero-workflow",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=kz8SHHNIQGhI-voPHCzj5VsGFkMwnvkTTWT7S1bGZQw==",
+        "keyId": "2851d333-90f5-410a-948c-d0eaaae0ae61"
+    },
+    {
+        "id": "=slNHCEoVUHWAdA4MLA7Vrc3ZPhLRt4f9J3T2735EDCU==",
+        "serviceCode": "hzero-workflow",
+        "databaseName": "HZERO_WORKFLOW",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "65dcfeb7-4411-4304-9995-88b0cf9e8d76",
+        "parentKeyId": "2851d333-90f5-410a-948c-d0eaaae0ae61"
+    },
+    {
+        "id": "=6hb40Yz9hg-4m-5DonWHw0wq3OJgHHurNIBqCEI0_E0==",
+        "serviceCode": "hzero-workflow",
+        "databaseName": "hzero_workflow",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "aa8121f2-8feb-45bd-8e2f-0bdd1031282e",
+        "parentKeyId": "2851d333-90f5-410a-948c-d0eaaae0ae61"
+    },
+    {
+        "serviceCode": "hzero-workflow-30029",
+        "serviceName": "hzero-workflow-30029",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "serviceId": "=z2vTXOPzFneIuOjnGtS1sgcLeHKNjPqsVJyCGSu7AT8==",
+        "keyId": "ac914265-ba55-4141-827b-c613907b4a44"
+    },
+    {
+        "id": "=Rfc5GmzTPGBuf5XKlisYEivd__s_aGYvaq6OctOl0R8==",
+        "serviceCode": "hzero-workflow-30029",
+        "databaseName": "HZERO_WORKFLOW",
+        "dataSourceType": "Oracle",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "39c4115c-8d2d-4447-9a32-33730e7dd23e",
+        "parentKeyId": "ac914265-ba55-4141-827b-c613907b4a44"
+    },
+    {
+        "serviceCode": "hzero-workflow-x",
+        "serviceAssignId": 0,
+        "serviceAssignName": "HZERO平台",
+        "keyId": "0424a9ab-0079-4c26-9cb3-5f0f565aeffc"
+    },
+    {
+        "id": "=hyNQesHE87ULusPcpNG59dsnT4AMyTqqey-_iaicc2c==",
+        "serviceCode": "hzero-workflow-x",
+        "databaseName": "hzero_workflow",
+        "dataSourceType": "MySQL",
+        "primaryFlag": true,
+        "assignId": 0,
+        "assignName": "HZERO平台",
+        "keyId": "4ba9d2de-fd72-4779-8b01-c3a62dcb3ccc",
+        "parentKeyId": "0424a9ab-0079-4c26-9cb3-5f0f565aeffc"
+    }
+]
