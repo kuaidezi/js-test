@@ -2,10 +2,8 @@ import intl from "utils/intl";
 
 
 const Langs =  {
- 	FUNCTION: () => intl.get("horc.common.message.function").d("函数"),
-	FUNCTION_DESCRIPTION: () => intl.get("horc.common.message.functionDescription").d("函数描述"),
-	EXAMPLE: () => intl.get("horc.common.message.example").d("示例"),
-	EXAMPLE_DESCRIPTION: () => intl.get("horc.common.message.exampleDescription").d("示例描述"),
+ 	SYSTEM_NAME: () => intl.get("hitf.resourceCenter.message.systemName").d("系统名称"),
+	SYSTEM_CODE: () => intl.get("hitf.resourceCenter.message.systemCode").d("系统编码"),
 
 };
 

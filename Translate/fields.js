@@ -2,11 +2,11 @@ const list =[
     {
         "name": "example",
         "type": FieldType.string,
-        "label": CARD_LANG.FUNCTION()
+        "label": RESOURCE_CENTER_LANG.SYSTEM_NAME()
     },
     {
         "name": "exampleReturn",
         "type": FieldType.string,
-        "label": CARD_LANG.FUNCTION_DESCRIPTION()
+        "label": RESOURCE_CENTER_LANG.SYSTEM_CODE()
     }
 ]
