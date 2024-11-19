@@ -1,0 +1,7 @@
+[
+    "hzero.common.date.startTime",
+    "hzero.common.date.endTime",
+    "horc.dataMigration.model.dataMigration.httpResource",
+    "hzero.common.model.common.belongTenant",
+    "horc.taskInstance.model.taskInstance.taskCode"
+]

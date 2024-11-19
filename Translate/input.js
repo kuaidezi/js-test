@@ -1,11 +1,11 @@
-const [TEMPLATE_CODE, TEXT_CODE] = ["hitf.resourceCenter", "message"];
+const [TEMPLATE_CODE, TEXT_CODE] = ["hitf.workbench", "view"];
 
-const CODE_LANG = "RESOURCE_CENTER_LANG";
+const CODE_LANG = "WORKBENCH_LANG";
 
 // 输入需要翻译的中文数组
-const cnNames = ["系统名称", "系统编码"];
+const cnNames = ["数据迁移"];
 
-const fieldList = ["example", "exampleReturn"];
+const fieldList = [];
 
 module.exports = {
   CN_NAMES: cnNames,
