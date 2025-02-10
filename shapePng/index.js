@@ -429,25 +429,29 @@ function readDirectoryRecursive(dir) {
 }
 
 const directoryPath = "./input/"; // 替换为你的目录路径
-const allFiles = readDirectoryRecursive(directoryPath).map((i) =>
-  fs.rename(i, `./input/${i.split("\\")[2]}.png`, () => {})
-);
+const allFiles = readDirectoryRecursive(directoryPath);
+// .map((i) =>
+//   fs.rename(i, `./input/${i.split("\\")[2]}.png`, () => {})
+// );
 // .map((i) =>
 //   i.replace("input\\", "").replace(".png", "")
 // );
 
-// allFiles.forEach((item) => {
-//   const ele = item.replace("input\\", "").replace(".png", "");
-//   const flag = list.find(
-//     (i) =>
-//       i.meaning.toLocaleLowerCase().indexOf(ele.toLocaleLowerCase()) > -1 ||
-//       [i.value.toLocaleLowerCase(), i.meaning.toLocaleLowerCase()].includes(
-//         ele.toLocaleLowerCase()
-//       )
-//   );
-//   if (flag) {
-//     fs.renameSync(`./input/${ele}.png`, `./input/${flag.value}.png`);
-//   }
-// });
+allFiles.forEach((item) => {
+  const ele = item
+    .replace("input\\", "")
+    .replace(".png", "")
+    .replace(".png", "");
+  const flag = list.find(
+    (i) =>
+      i.meaning.toLocaleLowerCase().indexOf(ele.toLocaleLowerCase()) > -1 ||
+      [i.value.toLocaleLowerCase(), i.meaning.toLocaleLowerCase()].includes(
+        ele.toLocaleLowerCase()
+      )
+  );
+  if (flag) {
+    fs.renameSync(item, `./input/${flag.value}.png`);
+  }
+});
 console.log(allFiles);
 // ;
