@@ -430,14 +430,19 @@ function readDirectoryRecursive(dir) {
 
 const directoryPath = "./input/"; // 替换为你的目录路径
 const allFiles = readDirectoryRecursive(directoryPath).map((i) =>
-  i.replace("input\\", "").replace(".svg", "")
+  i.replace("input\\", "").replace(".png", "")
 );
+
 allFiles.forEach((ele) => {
   const flag = list.find(
-    (i) => i.meaning.indexOf(ele) > -1 || [i.value, i.meaning].includes(ele)
+    (i) =>
+      i.meaning.toLocaleLowerCase().indexOf(ele.toLocaleLowerCase()) > -1 ||
+      [i.value.toLocaleLowerCase(), i.meaning.toLocaleLowerCase()].includes(
+        ele.toLocaleLowerCase()
+      )
   );
   if (flag) {
-    fs.renameSync(`./input/${ele}.svg`, `./input/${flag.value}.svg`);
+    fs.renameSync(`./input/${ele}.png`, `./input/${flag.value}.png`);
   }
 });
 console.log(allFiles);
