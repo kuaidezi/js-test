@@ -1,0 +1,1 @@
+hitf.mock	view.button.syncInterfaceParam	同步API参数	

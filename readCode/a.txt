@@ -1,0 +1,1 @@
+  SYNC_INTERFACE_PARAM: () => intl.get('hitf.mock.view.button.syncInterfaceParam').d('同步API参数'),
