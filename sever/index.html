@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE + POST Control Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #status {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        #messages {
+            border: 1px solid #ddd;
+            padding: 10px;
+            height: 200px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+
+        #message-input {
+            width: 70%;
+            padding: 8px;
+        }
+
+        #send-btn {
+            padding: 8px 15px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #send-btn:hover {
+            background: #0056b3;
+        }
+
+        #clear-btn {
+            padding: 8px 15px;
+            background: hsl(59, 100%, 50%);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #clear-btn:hover {
+            background: #b36b00;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SSE + POST Control Demo</h1>
+    <div id="status">Connecting to SSE server...</div>
+    <div id="messages"></div>
+    <input type="text" id="message-input" placeholder="Enter message to send via POST">
+    <button id="send-btn">Send via POST</button>
+    <button id="clear-btn">Clear</button>
+    <div id="error" class="error"></div>
+
+    <script>
+        let sessionId = null;
+        let eventSource = null;
+        const statusEl = document.getElementById('status');
+        const messagesEl = document.getElementById('messages');
+        const errorEl = document.getElementById('error');
+
+        // 初始化 SSE 连接
+        function initSSE() {
+            statusEl.textContent = "Connecting to SSE server...";
+            errorEl.textContent = "";
+
+            // 关闭旧的连接（如果存在）
+            if (eventSource) {
+                eventSource.close();
+            }
+
+            // 建立新的 SSE 连接
+            eventSource = new EventSource('/events');
+
+            eventSource.onopen = () => {
+                statusEl.textContent = "SSE connected. Waiting for sessionId...";
+            };
+
+            eventSource.onmessage = (e) => {
+                try {
+
+                    const data = JSON.parse(e.data);
+
+
+                    // 首次连接：获取 sessionId
+                    if (data.type === 'SESSION_ID') {
+                        sessionId = data.sessionId;
+                        statusEl.textContent = `SSE connected. Session ID: ${sessionId}`;
+                        logMessage(`[SERVER] Assigned sessionId: ${sessionId}，lastEventId：${e.lastEventId}`);
+                    }
+                    // 普通消息
+                    else if (data.type === 'MESSAGE') {
+                        logMessage(`[SERVER] ${data.message}`);
+                    }
+                } catch (err) {
+                    logMessage(`[ERROR] Failed to parse SSE data: ${err.message}`);
+                }
+            };
+
+            eventSource.onerror = (err) => {
+                statusEl.textContent = "SSE connection error. Reconnecting...";
+                errorEl.textContent = "Connection lost. Attempting to reconnect...";
+                setTimeout(initSSE, 3000); // 3秒后重连
+            };
+        }
+
+        // 发送 POST 请求控制 SSE
+        async function sendPostMessage() {
+            if (!sessionId) {
+                errorEl.textContent = "No sessionId available. Wait for SSE connection.";
+                return;
+            }
+
+            const message = document.getElementById('message-input').value.trim();
+            if (!message) {
+                errorEl.textContent = "Please enter a message.";
+                return;
+            }
+
+            try {
+
+                logMessage(`[CLIENT] Sent POST: "${message}"`);
+
+
+                const response = await fetch('/events', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        sessionId,
+                        message
+                    })
+                });
+
+                if (response.ok) {
+                    document.getElementById('message-input').value = "";
+                    errorEl.textContent = "";
+                } else {
+                    throw new Error(`Server returned ${response.status}`);
+                }
+            } catch (err) {
+                errorEl.textContent = `Failed to send POST: ${err.message}`;
+            }
+        }
+
+        // 在页面显示消息
+        function logMessage(msg) {
+            const p = document.createElement('p');
+            p.textContent = msg;
+            messagesEl.appendChild(p);
+            messagesEl.scrollTop = messagesEl.scrollHeight;
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            initSSE();
+            document.getElementById('send-btn').addEventListener('click', sendPostMessage);
+            document.getElementById('clear-btn').addEventListener('click', () => {
+                messagesEl.innerHTML = ""; // 直接清空所有子元素
+            });
+            document.getElementById('message-input').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') sendPostMessage();
+            });
+        });
+    </script>
+</body>
+
+</html>
